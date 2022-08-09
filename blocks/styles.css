@@ -1,0 +1,51 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+.button{
+    background-color: black;
+    margin: 10px 10px 10px 10px;
+    padding: 10px 10px 10px 10px;
+}
+.orange{
+    margin: 10px 10px 10px 100px;
+    width: 500px;
+    height: 100px;
+   
+    background:linear-gradient(90deg, orange, red);
+
+}
+.green{
+ 
+    margin: 10px 10px 10px 100px;
+    width: 500px;
+    height: 100px;
+    background:linear-gradient(90deg, rgb(104, 255, 144), rgb(2, 135, 53));
+
+}
+.purple{
+ 
+    margin: 10px 10px 10px 100px;
+    width: 500px;
+    height: 100px;
+    background-color: purple;
+
+}
+.blue{
+
+    margin: 10px 10px 10px 100px;
+    width: 500px;
+    height: 100px;
+    background-color: blue;
+
+}
+
+.word{
+    text-align: center;
+    color: #fff;
+    vertical-align: middle;
+    font: 1em sans-serif;
+    font-size: large;
+    font-weight: 600;
+}

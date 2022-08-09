@@ -1,0 +1,39 @@
+.menu{
+    width: 100%;
+    border: 2px solid;
+    background-color: rgb(31, 82, 82);
+    line-height: 30px;
+    display: flex;
+    justify-content: center;
+}
+.active{
+    flex-basis: 100px;
+    color: aliceblue;
+    padding: 0 5px 0 5px;
+    border: 2px solid #fff;
+}
+.active:hover{
+    background-color: #fff;
+    color: rgb(27, 60, 49);
+    border-radius: 2px;
+}
+.menu_2{
+    width: 100%;
+    border: 2px solid;
+    background-color: rgb(31, 82, 82);
+    line-height: 30px;
+    display: flex;
+    justify-content: center;
+}
+.active_2{
+    flex-basis: 100px;
+    color: aliceblue;
+    padding: 0 5px 0 5px;
+    border: 2px solid #fff;
+    align-self: center;
+}
+.active_2:hover{
+    background-color: #fff;
+    color: rgb(27, 60, 49);
+    border-radius: 2px;
+}
