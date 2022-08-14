@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+.container{
+    width: 100%;
+}
+.cards{
+    width: 1140px;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+.card_1{
+    width: 555px;
+    height: 296px;
+    background: linear-gradient(257.26deg, #008BF0 -13.2%, #D943C9 130.95%);
+    order: 1px solid rgba(0, 0, 0, 0.1); 
+    position: relative;
+}
+.sale{
+    width: 257px;
+    height: 27px;
+    margin-left: 35px;
+    margin-top: 75px;
+    margin-bottom: 5px;
+    font-family: 'Hind Siliguri';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 27px;
+    text-transform: uppercase;
+    color: #F4F9FC;
+    opacity: 0.6;
+}
+.title{
+    width: 250px;
+    height: 81px;
+    margin-top: 0;
+    margin-left: 35px; 
+    margin-bottom: 5px;
+    font-family: 'Hind Siliguri';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 31px;
+    line-height: 40px;
+    color: #F4F9FC;
+}
+.little{
+    width: 76px;
+    height: 27px;
+    margin-left: 35px;
+    line-height: 27px;
+    margin-top: 0;
+    font-family: 'Hind Siliguri';
+    color: #F4F9FC;
+
+}
+.card_1 img{
+    position: absolute;
+    bottom: -15px;
+    left: 234px;
+}
+.card_2{
+    width: 555px;
+    height: 296px;
+    background: linear-gradient(257.26deg, #008BF0 -13.2%, #D943C9 130.95%);
+    order: 1px solid rgba(0, 0, 0, 0.1); 
+    position: relative;
+    margin-left: 30px;
+}
+.sale_2{
+    
+    width: 257px;
+    height: 27px;
+    margin-left: 35px;
+    margin-top: 75px;
+    margin-bottom: 5px;
+    font-family: 'Hind Siliguri';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 27px;
+    text-transform: uppercase;
+    color: #F4F9FC;
+    opacity: 0.6;
+}
+.title_2{
+    
+    width: 250px;
+    height: 81px;
+    margin-top: 0;
+    margin-left: 35px; 
+    margin-bottom: 5px;
+    font-family: 'Hind Siliguri';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 31px;
+    line-height: 40px;
+    color: #F4F9FC;
+}
+.little_2{
+    position: absolute;
+    width: 76px;
+    height: 27px;
+    margin-left: 35px;
+    line-height: 27px;
+    margin-top: 0;
+    font-family: 'Hind Siliguri';
+    color: #F4F9FC;
+}
+.card_2 img{
+    position: absolute;
+    top: 36px;
+    left: 250px;
+}
