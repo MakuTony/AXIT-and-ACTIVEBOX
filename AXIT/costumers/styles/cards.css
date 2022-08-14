@@ -1,0 +1,77 @@
+.cards{
+
+    display: flex;
+}
+.card{
+    margin-right: 30px;
+    margin-top: 83px;
+    position: relative;
+}
+.message{
+    width: 370px;
+    height: 150px;
+    background: #c1c1c1;
+    border-radius: 10px;
+    margin-bottom: 66px;
+    padding: 38px 0 37px 0;
+    display: flex;
+    margin: auto;
+    width: 370px;
+    height: 105px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    align-items: center;
+    text-align: center;
+    color: #86878B;
+}
+
+.triangle{
+    position: absolute;
+    left: 65px;
+    top: 180px;
+	border-left: 20px solid transparent;
+	border-right: 20px solid transparent;
+	border-top: 30px solid #c1c1c1;;
+}
+
+.info{
+    display: flex;
+    
+}
+.photo{
+    position: absolute;
+    margin-top: 66px;
+    width: 70px;
+    height: 70px;
+}
+.name{
+    width: 269px;
+    height: 54px;
+    position: absolute;
+    left: 100px;
+    top: 246px;
+    display: flex;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    align-items: center;
+    color: #000000;
+}
+.job{
+    position: absolute;
+    left: 100px;
+    top: 300px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    align-items: center;
+
+    color: #000000;
+}
