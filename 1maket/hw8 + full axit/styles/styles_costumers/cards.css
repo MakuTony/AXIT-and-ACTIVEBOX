@@ -1,0 +1,77 @@
+.section_5 .cards{
+
+    display: flex;
+}
+.section_5 .card{
+    margin-right: 30px;
+    margin-top: 83px;
+    position: relative;
+}
+.section_5 .message{
+    width: 370px;
+    height: 150px;
+    background: #c1c1c1;
+    border-radius: 10px;
+    margin-bottom: 66px;
+    padding: 38px 0 37px 0;
+    display: flex;
+    margin: auto;
+    width: 370px;
+    height: 105px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    align-items: center;
+    text-align: center;
+    color: #86878B;
+}
+
+.section_5 .triangle{
+    position: absolute;
+    left: 65px;
+    top: 180px;
+	border-left: 20px solid transparent;
+	border-right: 20px solid transparent;
+	border-top: 30px solid #c1c1c1;;
+}
+
+.section_5 .info{
+    display: flex;
+    
+}
+.section_5 .photo{
+
+    margin-top: 66px;
+    width: 70px;
+    height: 70px;
+}
+.section_5 .name{
+    width: 269px;
+    height: 54px;
+    position: absolute;
+    left: 100px;
+    top: 246px;
+    display: flex;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    align-items: center;
+    color: #000000;
+}
+.section_5 .job{
+    position: absolute;
+    left: 100px;
+    top: 300px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    align-items: center;
+
+    color: #000000;
+}

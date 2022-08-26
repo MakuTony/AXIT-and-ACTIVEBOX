@@ -1,0 +1,186 @@
+.awesome{
+    margin-top: 50px;
+    width: 1170px;
+    height: 150px;
+    position: relative;
+    left: 171px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.word{
+    height: 150px;
+    width: 1170px;
+    left: 171px;
+    top: 1853px;
+    border-radius: nullpx;
+}
+hr{
+    position: absolute;
+    width: 170px;
+    height: 0px;
+    left: 671px;
+    top: 137px;
+    border: 1px solid #EC7979;
+}
+.underline p{
+    margin-top: 0px;
+    position: absolute;
+left: 535px;
+
+    width: 1169px;
+    height: 21px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.right{
+    width: 92px;
+    height: 92px;
+    border: 1px solid #EC7979;
+    box-sizing: border-box;
+    border-radius: 50%;
+    position: absolute;
+    top: 371px;
+    left: 710px;
+}
+.left{
+    width: 92px;
+    height: 92px;
+    border: 1px solid #EC7979;
+    box-sizing: border-box;
+    border-radius: 50%;
+    position: absolute;
+    top: 371px;
+    left: 310px;
+}
+.middle{
+    width: 92px;
+    height: 92px;
+    border: 1px solid #EC7979;
+    box-sizing: border-box;
+    border-radius: 50%;
+    position: absolute;
+    top: 371px;
+    right: 308px;
+}
+.lightning{
+    position: absolute;
+    top: 385px;
+    left: 735px;
+}
+.keybord{
+    position: absolute;
+    top: 393px;
+    right: 321px;
+}
+.lamp{
+position: absolute;
+    top: 380px;
+    left: 318.9px;
+}
+.design_left{
+width: 370px;
+height: 105px;
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 21px;
+display: flex;
+align-items: center;
+text-align: center;
+color: #000000;
+position: absolute;
+top: 550px;
+left: 171px;
+}
+.design_middle{
+    width: 370px;
+    height: 105px;
+    font-family: 'Raleway';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 21px;
+display: flex;
+align-items: center;
+text-align: center;
+color: #000000;
+position: absolute;
+right: 589px;
+top: 550px;
+}
+.design_right{
+    width: 370px;
+    height: 105px;
+    font-family: 'Raleway';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 21px;
+display: flex;
+align-items: center;
+text-align: center;
+color: #000000;
+position: absolute;
+right: 169px;
+top: 550px;
+}
+.title1{
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 33px;
+display: flex;
+align-items: center;
+text-align: center;
+text-transform: capitalize;
+position: absolute;
+top:460px;
+left: 260px;
+color: #000000;
+}
+.title2{
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 33px;
+display: flex;
+align-items: center;
+text-align: center;
+text-transform: capitalize;
+position: absolute;
+top: 460px;
+left: 660px;
+color: #000000;
+}
+.title3{
+    font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 33px;
+display: flex;
+align-items: center;
+text-align: center;
+text-transform: capitalize;
+position: absolute;
+top: 460px;
+left: 1090px;
+color: #000000;
+}

@@ -1,0 +1,29 @@
+table{
+    background-color: rgb(117, 104, 89);
+    width: 50%;
+    border-radius: 10px;
+}
+td{
+    border-color: #fff;
+    color: #fff;
+    border-bottom: 2px solid #fff;
+    padding: 1em;
+}
+ul{
+    width: 50%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+li{
+    background-color:  rgb(117, 104, 89);
+    color: #fff;
+    padding: 1em;
+    margin-bottom: 2px;
+}
+li:first-child{
+border-radius: 10px 10px 0 0;
+}
+li:last-child{
+    border-radius: 0 0 10px 10px;
+}
