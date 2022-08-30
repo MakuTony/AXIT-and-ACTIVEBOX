@@ -24,8 +24,9 @@
 .section_3 .word{
     height: 150px;
     width: 1170px;
-    left: 171px;
-    top: 1853px;
+    display: flex;
+    justify-content: center;
+    padding-top: 75px;
     border-radius: nullpx;
 }
 .section_3 hr{

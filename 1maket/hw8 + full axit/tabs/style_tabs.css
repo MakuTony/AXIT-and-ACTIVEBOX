@@ -1,26 +1,27 @@
-body{
+.section_2 body{
     width:100%;
 }
-.container{
+.section_2 .container{
+    padding-top: 130px;
     width: 1170px;
     margin: 0 auto;
 }
 
-    .tabs { 
+.section_2 .tabs { 
         width: 100%;
         padding: 0px; 
         margin: 0 auto;
      }
-    .tabs input {
+     .section_2 .tabs input {
          display: none;
          }
-    .tabs div {
+         .section_2 .tabs div {
         display: none;
         padding: 12px;
         border: 1px solid #C0C0C0;
         background: #FFFFFF;
     }
-    .tabs label {
+    .section_2 .tabs label {
         display: inline-block;
         width: 171px;
         padding: 7px;
@@ -31,20 +32,20 @@ body{
         background: #E0E0E0;
         cursor: pointer;
     }
-    .tabs input:checked + label {
+    .section_2 .tabs input:checked + label {
         color: #000000;
         border: 1px solid #C0C0C0;
         border-bottom: 1px solid #FFFFFF;
         background: #FFFFFF;
     }
 
-    #txt_1, #txt_2, #txt_3{
+    .section_2 #txt_1, #txt_2, #txt_3{
         
         width: 1170px;
         height: 501px;
     }
 
-    #txt_1 .lorem{
+    .section_2 #txt_1 .lorem{
         display: flex;
         flex-direction: column;
         padding-left: 100px;
@@ -52,15 +53,15 @@ body{
         width: 570px;
         padding-top: 0;
         font-family: Raleway;
-font-size: 18px;
-font-weight: 400;
-line-height: 21px;
-letter-spacing: 0em;
-text-align: left;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 21px;
+        letter-spacing: 0em;
+        text-align: left;
 
     }
 
-    #title{
+    .section_2 #title{
         width: 570px;
         height: 124px;
         padding-left: 0;
@@ -75,7 +76,7 @@ text-align: left;
     }
     
 
-    #txt_2 .lorem{
+    .section_2 #txt_2 .lorem{
         display: flex;
         flex-direction: column;
         width: 570px;
@@ -84,15 +85,15 @@ text-align: left;
         border: none;
 
         font-family: Raleway;
-font-size: 18px;
-font-weight: 400;
-line-height: 21px;
-letter-spacing: 0em;
-text-align: left;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 21px;
+        letter-spacing: 0em;
+        text-align: left;
 
     }
 
-    #txt_3 .lorem{
+    .section_2 #txt_3 .lorem{
         display: flex;
         flex-direction: column;
         padding-left: 100px;
@@ -101,30 +102,30 @@ text-align: left;
         
         font-family: Raleway;
         padding-top: 0;
-font-size: 18px;
-font-weight: 400;
-line-height: 21px;
-letter-spacing: 0em;
-text-align: left;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 21px;
+        letter-spacing: 0em;
+        text-align: left;
 
     }
-button{
+    .section_2 button{
     Width:270px;
     Height:58px;
     background: #EC7979;
     border: 0ch;
     margin-bottom: 54px;
 }
-a{
+.section_2 a{
     text-decoration: none;
     color: #fff;
     font-size: 18px;
 }
     
 
-    #tab_1:checked ~ #txt_1,
-    #tab_2:checked ~ #txt_2,
-    #tab_3:checked ~ #txt_3 {
+.section_2 #tab_1:checked ~ #txt_1,
+.section_2 #tab_2:checked ~ #txt_2,
+.section_2 #tab_3:checked ~ #txt_3 {
         padding: 0;
          display: flex; 
          justify-content: space-between;
