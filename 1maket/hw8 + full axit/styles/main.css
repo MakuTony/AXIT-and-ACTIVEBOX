@@ -58,6 +58,15 @@ align-items: center;
         cursor: pointer;
         border: 1px solid #fff;
         background-color: transparent;
+        display: flex;
+    justify-content: center;
+    align-self: center;
+}
+
+.section_1 #down{
+    width: 270px;
+    height: 55px;
+    
 }
 
 .section_1 form{
@@ -150,6 +159,11 @@ text-transform: uppercase;
     cursor: pointer;
     border: none;
 }
+.section_1 #btn:hover{
+    background-color: #fcacaccc;
+    border-radius: 0 0 10px 10px;
+}
+
 .section_1 button:hover{
     background: rgba(255, 255, 255, 0.219);
 }
