@@ -1,4 +1,4 @@
-.section_7 footer{
+.contacts footer{
     width: 100%;
     height: 164px;
     margin-top: 50px;
@@ -9,14 +9,14 @@
     align-items: center;
 }
 
-.section_7 .links a{
+.contacts .links a{
     margin-right: 30px;
     margin-left: 30px;
     margin-bottom: 10px;
     
 }
 
-.section_7 .sign{
+.contacts .sign{
     margin-top: 10px;
     width: 1169px;
     height: 21px;

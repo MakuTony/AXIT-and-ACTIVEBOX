@@ -1,13 +1,15 @@
-.section_5 .cards{
 
+
+.costumers .cards{
+    
     display: flex;
 }
-.section_5 .card{
+.costumers .card{
     margin-right: 30px;
     margin-top: 83px;
     position: relative;
 }
-.section_5 .message{
+.costumers .message{
     width: 370px;
     height: 150px;
     background: #c1c1c1;
@@ -28,7 +30,7 @@
     color: #86878B;
 }
 
-.section_5 .triangle{
+.costumers .triangle{
     position: absolute;
     left: 65px;
     top: 180px;
@@ -37,17 +39,17 @@
 	border-top: 30px solid #c1c1c1;;
 }
 
-.section_5 .info{
+.costumers .info{
     display: flex;
     
 }
-.section_5 .photo{
+.costumers .photo{
 
     margin-top: 66px;
     width: 70px;
     height: 70px;
 }
-.section_5 .name{
+.costumers .name{
     width: 269px;
     height: 54px;
     position: absolute;
@@ -62,7 +64,7 @@
     align-items: center;
     color: #000000;
 }
-.section_5 .job{
+.costumers .job{
     position: absolute;
     left: 100px;
     top: 300px;
@@ -75,3 +77,16 @@
 
     color: #000000;
 }
+
+@media( max-width:320px)  {
+    .costumers .cards {
+        width: 80%;
+    }
+
+        .costumers .container .cards{
+            width: 100px;
+            box-sizing: border-box;
+            flex-direction: column;
+            display: flex;
+        }
+    }

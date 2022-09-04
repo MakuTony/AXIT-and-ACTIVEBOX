@@ -1,4 +1,4 @@
-.section_7 .container{
+.contacts .container{
     width: 100%;
     height: 100%;
     display: flex;
@@ -7,7 +7,7 @@
     
 }
 
-.section_7 .title{
+.contacts .title{
     margin: 0 auto;
     width: 1170px;
     height: 150px;
@@ -22,7 +22,7 @@
     justify-content: center;
 }
 
-.section_7 hr{
+.contacts hr{
     width: 170px;
     height: 0;
     margin-top: 0;
@@ -31,7 +31,7 @@
     background: #EC7979;
     align-items: center;
 }
-.section_7 .grey{
+.contacts .grey{
     text-align: center;
     margin-top: 40px;
     font-family: 'Raleway', sans-serif;
@@ -40,20 +40,20 @@
     color: #86878B;
 }
 
-.section_7 .text{
+.contacts .text{
     margin-top: 89px;
     display: flex;
     justify-content: space-evenly;
 
 }
-.section_7 .info{
+.contacts .info{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     margin-bottom: 4.08px;
 
 }
-.section_7 .text input{
+.contacts .text input{
     border-top: none;
     border-left: none;
     border-right: none;
@@ -62,7 +62,7 @@
     padding: 16px 0 16px 0;
 
 }
-.section_7 textarea{
+.contacts textarea{
     border-top: none;
     width: 569px;
     border-left: none;
@@ -71,13 +71,13 @@
 
 }
 
-.section_7 button{
+.contacts button{
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.section_7 #btn{
+.contacts #btn{
     width: 370px;
     height: 58px;
     display: flex;
@@ -92,7 +92,7 @@
     cursor: pointer;
 }
 
-.section_7 #btn:hover{
+.contacts #btn:hover{
     background: #ec797974;
     border: none;
     border-radius: 5px;

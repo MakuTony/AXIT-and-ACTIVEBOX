@@ -1,4 +1,4 @@
-.section_1 main{
+.axit main{
     display: flex;
     justify-content: space-around;
     height: 650px;
@@ -7,13 +7,13 @@
 
     
 }
-.section_1 .title{
+.axit .title{
     width: 270px;
     height: 100px;
 }
 
 
-.section_1 .modern{
+.axit .modern{
     width: 670px;
     height: 168px;
     color: white;
@@ -27,7 +27,7 @@
     text-transform: uppercase;
     margin-top: 50.88px;
 }
-.section_1 hr{
+.axit hr{
     width: 170px;
     height: 0;
     margin-top: 0;
@@ -39,7 +39,7 @@
     margin-left: 0;
 }
 
-.section_1 .lorem{
+.axit .lorem{
     height: 42px;
     width: 270px;
     margin-bottom: 42px;
@@ -52,7 +52,7 @@ line-height: 21px;
 display: flex;
 align-items: center;
 }
-.section_1 button{
+.axit button{
         height: 58px;
         width: 270px;
         cursor: pointer;
@@ -63,13 +63,13 @@ align-items: center;
     align-self: center;
 }
 
-.section_1 #down{
+.axit #down{
     width: 270px;
     height: 55px;
     
 }
 
-.section_1 form{
+.axit form{
     padding-left: 50px;
     padding-right: 50px;
     width: 470px;
@@ -91,11 +91,11 @@ text-align: center;
 text-transform: uppercase;
 
 }
-.section_1 input{
+.axit input{
     width: 100%;
     
 }
-.section_1 .info input{
+.axit .info input{
     margin-bottom: 33px;
     padding-top: 16px;
     padding-bottom: 16px;
@@ -105,12 +105,11 @@ text-transform: uppercase;
     border-left: none;
     
 }
-.section_1 .info{
-    margin-top: 45px;
+.axit .info{
     height: 390px;
 }
 
-.section_1 p{
+.axit p{
     width: 367px;
     height: 90px;
     font-family: 'Open Sans';
@@ -122,7 +121,7 @@ text-transform: uppercase;
 
 }
 
-.section_1 form p{
+.axit form p{
     color:  #EC7979;
     align-items: center;
     font-family: 'Open Sans';
@@ -136,22 +135,22 @@ text-transform: uppercase;
 
 }
 
-.section_1 form p::before{
+.axit form p::before{
     content: 'TRY YOUR  ';
     color: #333333;
 }
-.section_1 form p::after{
+.axit form p::after{
     content: ' TRIAL TODAY';
     color: #333333;
 }
 
-.section_1 .get{
+.axit .get{
     height: 60px;
     background-color: #EC7979;
     border-radius: 0 0 10px 10px;
     
 }
-.section_1 #btn{
+.axit #btn{
     height: 60px;
     width: 470px;
     background: none;
@@ -159,11 +158,11 @@ text-transform: uppercase;
     cursor: pointer;
     border: none;
 }
-.section_1 #btn:hover{
+.axit #btn:hover{
     background-color: #fcacaccc;
     border-radius: 0 0 10px 10px;
 }
 
-.section_1 button:hover{
+.axit button:hover{
     background: rgba(255, 255, 255, 0.219);
 }
