@@ -67,10 +67,8 @@ justify-content: center;
     align-items: center;
     border: #EC7979 1px solid;
     border-radius: 50%;
-    margin-left: 139px;
-    margin-right: 139px;
+    
     margin-top: 110px;
-    margin-bottom: 39px;
 }
 
 .about .design {
@@ -121,3 +119,7 @@ flex-direction: column;
     flex-direction: column;
 }
 
+.about .thoughful{
+    display: flex;
+    flex-direction: column;
+}
