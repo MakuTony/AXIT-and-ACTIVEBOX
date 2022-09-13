@@ -6,7 +6,7 @@
 47H:\TeachMeSkills\homeworks\2maket\pngs\LAMP.svg133067640021646110 0
 95H:\TeachMeSkills\homeworks\2maket\node_modules\source-map-support\browser-source-map-support.js133063491298837409 0
 57H:\TeachMeSkills\homeworks\2maket\node_modules\terser\lib133063491411275987 1
-37H:\TeachMeSkills\homeworks\2maket\src133063493135516545 1
+37H:\TeachMeSkills\homeworks\2maket\src133075422392763397 1
 88H:\TeachMeSkills\homeworks\2maket\node_modules\electron-to-chromium\chromium-versions.js133063491331202934 0
 53H:\TeachMeSkills\homeworks\2maket\node_modules\@babel133063491145077073 1
 53H:\TeachMeSkills\homeworks\2maket\node_modules\braces133063491747288667 1
@@ -16,7 +16,7 @@
 71H:\TeachMeSkills\homeworks\2maket\node_modules\postcss-value-parser\lib133063491365308048 1
 85H:\TeachMeSkills\homeworks\2maket\node_modules\caniuse-lite\dist\unpacker\browsers.js133063491423780699 0
 55H:\TeachMeSkills\homeworks\2maket\node_modules\svgo\lib133063491427185882 1
-38H:\TeachMeSkills\homeworks\2maket\dist133073857303872348 1
+38H:\TeachMeSkills\homeworks\2maket\dist133074750946190796 1
 56H:\TeachMeSkills\homeworks\2maket\node_modules\is-number133063491746539135 1
 90H:\TeachMeSkills\homeworks\2maket\node_modules\caniuse-lite\data\features\web-animation.js133063491460943251 0
 87H:\TeachMeSkills\homeworks\2maket\node_modules\binary-extensions\binary-extensions.json133063491746329251 0
@@ -51,7 +51,7 @@
 133H:\TeachMeSkills\homeworks\2maket\node_modules\@parcel\core\test\fixtures\plugins\node_modules\parcel-transformer-no-engines\index.js133063491423500866 0
 66H:\TeachMeSkills\homeworks\2maket\node_modules\is-json\.travis.yml133063491356438248 0
 64H:\TeachMeSkills\homeworks\2maket\node_modules\lmdb\src\misc.cpp133063491427245873 0
-54H:\TeachMeSkills\homeworks\2maket\src\sass\styles.scss133073857298062844 0
+54H:\TeachMeSkills\homeworks\2maket\src\sass\styles.scss133075422350686591 0
 74H:\TeachMeSkills\homeworks\2maket\node_modules\@parcel\transformer-svg\lib133063491363799002 1
 74H:\TeachMeSkills\homeworks\2maket\node_modules\node-addon-api\package.json133063491393047205 0
 74H:\TeachMeSkills\homeworks\2maket\node_modules\supports-color\package.json133063491345958083 0
@@ -61,7 +61,7 @@
 56H:\TeachMeSkills\homeworks\2maket\node_modules\commander133063491365388006 1
 87H:\TeachMeSkills\homeworks\2maket\node_modules\@parcel\codeframe\test\codeframe.test.js133063491400422665 0
 78H:\TeachMeSkills\homeworks\2maket\node_modules\caniuse-lite\data\regions\AD.js133063491364628469 0
-42H:\TeachMeSkills\homeworks\2maket\src\sass133063493386598560 1
+42H:\TeachMeSkills\homeworks\2maket\src\sass133075422350676593 1
 117H:\TeachMeSkills\homeworks\2maket\node_modules\@parcel\core\test\fixtures\config-extends-not-found\.parcelrc-multiple133063491386635376 0
 70H:\TeachMeSkills\homeworks\2maket\node_modules\terser\lib\sourcemap.js133063491410616393 0
 72H:\TeachMeSkills\homeworks\2maket\node_modules\type-fest\ts41\index.d.ts133063491393017218 0
@@ -87,7 +87,7 @@
 78H:\TeachMeSkills\homeworks\2maket\node_modules\caniuse-lite\data\regions\JM.js133063491452570427 0
 46H:\TeachMeSkills\homeworks\2maket\package.json133063492832135378 0
 66H:\TeachMeSkills\homeworks\2maket\node_modules\has-flag\index.d.ts133063491331242838 0
-48H:\TeachMeSkills\homeworks\2maket\src\index.html133073693385164152 0
+48H:\TeachMeSkills\homeworks\2maket\src\index.html133075422392773393 0
 92H:\TeachMeSkills\homeworks\2maket\node_modules\@parcel\hash\parcel-hash.linux-arm64-gnu.node133063491401122227 0
 83H:\TeachMeSkills\homeworks\2maket\node_modules\css-tree\lib\syntax\atrule\import.js133063491412195430 0
 64H:\TeachMeSkills\homeworks\2maket\node_modules\terser\lib\cli.js133063491398184048 0
@@ -239,7 +239,7 @@
 101H:\TeachMeSkills\homeworks\2maket\node_modules\@parcel\core\test\fixtures\targets-default-distdir-one133063491438350641 1
 81H:\TeachMeSkills\homeworks\2maket\node_modules\xxhash-wasm\cjs\xxhash-wasm.js.map133063491356568164 0
 84H:\TeachMeSkills\homeworks\2maket\node_modules\caniuse-lite\data\features\flexbox.js133063491447105122 0
-60H:\TeachMeSkills\homeworks\2maket\dist\Vector L.4b5d377f.svg133073685416143400 0
+60H:\TeachMeSkills\homeworks\2maket\dist\Vector L.4b5d377f.svg133073933189691854 0
 60H:\TeachMeSkills\homeworks\2maket\node_modules\react-refresh133063491366387393 1
 52H:\TeachMeSkills\homeworks\2maket\node_modules\acorn133063491366547291 1
 81H:\TeachMeSkills\homeworks\2maket\node_modules\@parcel\packager-html\package.json133063491352440557 0
@@ -801,7 +801,7 @@
 69H:\TeachMeSkills\homeworks\2maket\node_modules\to-regex-range\LICENSE133063491746329251 0
 73H:\TeachMeSkills\homeworks\2maket\node_modules\yaml\browser\types\omap.js133063491387484863 0
 70H:\TeachMeSkills\homeworks\2maket\node_modules\sass\types\options.d.ts133063491766996553 0
-61H:\TeachMeSkills\homeworks\2maket\dist\index.dda6fa14.css.map133073857303852373 0
+61H:\TeachMeSkills\homeworks\2maket\dist\index.dda6fa14.css.map133074750946170814 0
 74H:\TeachMeSkills\homeworks\2maket\node_modules\yaml\browser\types\pairs.js133063491393436951 0
 67H:\TeachMeSkills\homeworks\2maket\node_modules\htmlnano\LICENSE.txt133063491422786345 0
 65H:\TeachMeSkills\homeworks\2maket\node_modules\tslib\tslib.es6.js133063491347117374 0
@@ -1046,7 +1046,7 @@
 63H:\TeachMeSkills\homeworks\2maket\node_modules\svgo\lib\path.js133063491403970502 0
 87H:\TeachMeSkills\homeworks\2maket\node_modules\type-fest\source\fixed-length-array.d.ts133063491391747994 0
 76H:\TeachMeSkills\homeworks\2maket\node_modules\msgpackr-extract\package.json133063491391658060 0
-61H:\TeachMeSkills\homeworks\2maket\dist\2maket.59712999.js.map133073685417122800 0
+61H:\TeachMeSkills\homeworks\2maket\dist\2maket.59712999.js.map133073933190781167 0
 89H:\TeachMeSkills\homeworks\2maket\node_modules\terser\node_modules\commander\CHANGELOG.md133063491346977479 0
 97H:\TeachMeSkills\homeworks\2maket\node_modules\@swc\helpers\lib\_iterable_to_array_limit_loose.js133063491408877462 0
 85H:\TeachMeSkills\homeworks\2maket\node_modules\@swc\helpers\lib\_non_iterable_rest.js133063491410596411 0
@@ -1366,7 +1366,7 @@
 60H:\TeachMeSkills\homeworks\2maket\node_modules\svgo\bin\svgo133063491335000547 0
 78H:\TeachMeSkills\homeworks\2maket\node_modules\@parcel\transformer-postcss\lib133063491364548525 1
 70H:\TeachMeSkills\homeworks\2maket\node_modules\node-addon-api\index.js133063491391648054 0
-54H:\TeachMeSkills\homeworks\2maket\dist\w5.f080c1dd.png133073685418282156 0
+54H:\TeachMeSkills\homeworks\2maket\dist\w5.f080c1dd.png133073933190661247 0
 83H:\TeachMeSkills\homeworks\2maket\node_modules\css-what\lib\commonjs\parse.d.ts.map133063491386735331 0
 79H:\TeachMeSkills\homeworks\2maket\node_modules\lmdb\node_modules\node-addon-api133063491396045367 1
 70H:\TeachMeSkills\homeworks\2maket\node_modules\supports-color\index.js133063491338521312 0
@@ -2153,7 +2153,7 @@
 67H:\TeachMeSkills\homeworks\2maket\node_modules\htmlnano\lib\modules133063491402021675 1
 67H:\TeachMeSkills\homeworks\2maket\node_modules\htmlnano\lib\presets133063491401112232 1
 87H:\TeachMeSkills\homeworks\2maket\node_modules\@parcel\reporter-dev-server\package.json133063491397584402 0
-56H:\TeachMeSkills\homeworks\2maket\dist\mem3.88f3a236.png133073685418222121 0
+56H:\TeachMeSkills\homeworks\2maket\dist\mem3.88f3a236.png133073933190511339 0
 68H:\TeachMeSkills\homeworks\2maket\node_modules\.bin\browserslist.ps1133063491510994590 0
 72H:\TeachMeSkills\homeworks\2maket\node_modules\@swc\helpers\package.json133063491424360340 0
 72H:\TeachMeSkills\homeworks\2maket\node_modules\dotenv-expand\lib\main.js133063491356857993 0
@@ -2170,7 +2170,7 @@
 87H:\TeachMeSkills\homeworks\2maket\node_modules\css-tree\lib\syntax\node\MediaFeature.js133063491424230445 0
 79H:\TeachMeSkills\homeworks\2maket\node_modules\htmlnano\lib\modules\minifyJs.js133063491393806728 0
 81H:\TeachMeSkills\homeworks\2maket\node_modules\htmlnano\lib\modules\minifyJson.js133063491394426347 0
-56H:\TeachMeSkills\homeworks\2maket\dist\COMP.989f6a6a.svg133073685416133410 0
+56H:\TeachMeSkills\homeworks\2maket\dist\COMP.989f6a6a.svg133073933189681853 0
 95H:\TeachMeSkills\homeworks\2maket\node_modules\htmlnano\lib\modules\normalizeAttributeValues.js133063491397594406 0
 96H:\TeachMeSkills\homeworks\2maket\node_modules\htmlnano\lib\modules\removeRedundantAttributes.js133063491400652549 0
 86H:\TeachMeSkills\homeworks\2maket\node_modules\caniuse-lite\data\features\indexeddb.js133063491450597220 0
@@ -2194,7 +2194,7 @@
 74H:\TeachMeSkills\homeworks\2maket\node_modules\htmlnano\docs\versions.json133063491408957420 0
 78H:\TeachMeSkills\homeworks\2maket\node_modules\caniuse-lite\data\regions\YE.js133063491461611196 0
 77H:\TeachMeSkills\homeworks\2maket\node_modules\@parcel\core\src\loadDotEnv.js133063491424470279 0
-54H:\TeachMeSkills\homeworks\2maket\dist\w3.b8f93ff0.png133073685418202136 0
+54H:\TeachMeSkills\homeworks\2maket\dist\w3.b8f93ff0.png133073933190501345 0
 107H:\TeachMeSkills\homeworks\2maket\node_modules\htmlnano\docs\versioned_sidebars\version-1.1.1-sidebars.json133063491408587646 0
 77H:\TeachMeSkills\homeworks\2maket\node_modules\@types\parse-json\package.json133063491345938098 0
 87H:\TeachMeSkills\homeworks\2maket\node_modules\@swc\helpers\lib\_non_iterable_spread.js133063491410806277 0
@@ -2960,11 +2960,11 @@
 86H:\TeachMeSkills\homeworks\2maket\node_modules\caniuse-lite\data\features\audio-api.js133063491407378382 0
 89H:\TeachMeSkills\homeworks\2maket\node_modules\@parcel\core\lib\serializerCore.browser.js133063491432614045 0
 82H:\TeachMeSkills\homeworks\2maket\node_modules\caniuse-lite\data\features\audio.js133063491407578261 0
-54H:\TeachMeSkills\homeworks\2maket\dist\w8.85320847.png133073685418302069 0
+54H:\TeachMeSkills\homeworks\2maket\dist\w8.85320847.png133073933190671240 0
 73H:\TeachMeSkills\homeworks\2maket\node_modules\@swc\helpers\lib\_throw.js133063491417300912 0
 88H:\TeachMeSkills\homeworks\2maket\node_modules\caniuse-lite\data\features\audiotracks.js133063491407728204 0
 85H:\TeachMeSkills\homeworks\2maket\node_modules\caniuse-lite\data\features\auxclick.js133063491408147910 0
-57H:\TeachMeSkills\homeworks\2maket\dist\check.dfbbfbfc.svg133073685416133410 0
+57H:\TeachMeSkills\homeworks\2maket\dist\check.dfbbfbfc.svg133073933189681853 0
 80H:\TeachMeSkills\homeworks\2maket\node_modules\caniuse-lite\data\features\av1.js133063491408307810 0
 98H:\TeachMeSkills\homeworks\2maket\node_modules\caniuse-lite\data\features\background-attachment.js133063491410406522 0
 97H:\TeachMeSkills\homeworks\2maket\node_modules\caniuse-lite\data\features\background-clip-text.js133063491410526450 0
@@ -3030,10 +3030,10 @@
 99H:\TeachMeSkills\homeworks\2maket\node_modules\caniuse-lite\data\features\font-metrics-overrides.js133063491447364964 0
 92H:\TeachMeSkills\homeworks\2maket\node_modules\caniuse-lite\data\features\css-unset-value.js133063491440508360 0
 91H:\TeachMeSkills\homeworks\2maket\node_modules\caniuse-lite\data\features\css-dir-pseudo.js133063491436811581 0
-58H:\TeachMeSkills\homeworks\2maket\dist\slide1.7f24f930.png133073693682589149 0
+58H:\TeachMeSkills\homeworks\2maket\dist\slide1.7f24f930.png133073933190891127 0
 97H:\TeachMeSkills\homeworks\2maket\node_modules\caniuse-lite\data\features\css-element-function.js133063491436901525 0
 148H:\TeachMeSkills\homeworks\2maket\node_modules\@parcel\node-resolver-core\test\fixture\node_modules\side-effects-package-redirect-up\foo\real-bar.js133063491421980566 0
-56H:\TeachMeSkills\homeworks\2maket\dist\mem4.33cc84e2.png133073685418222121 0
+56H:\TeachMeSkills\homeworks\2maket\dist\mem4.33cc84e2.png133073933190521340 0
 89H:\TeachMeSkills\homeworks\2maket\node_modules\caniuse-lite\data\features\font-loading.js133063491447344968 0
 93H:\TeachMeSkills\homeworks\2maket\node_modules\caniuse-lite\data\features\css-env-function.js133063491436961488 0
 91H:\TeachMeSkills\homeworks\2maket\node_modules\caniuse-lite\data\features\css-exclusions.js133063491437031458 0
@@ -3208,7 +3208,7 @@
 97H:\TeachMeSkills\homeworks\2maket\node_modules\caniuse-lite\data\features\high-resolution-time.js133063491450057551 0
 90H:\TeachMeSkills\homeworks\2maket\node_modules\caniuse-lite\data\features\html5semantic.js133063491450197478 0
 96H:\TeachMeSkills\homeworks\2maket\node_modules\caniuse-lite\data\features\http-live-streaming.js133063491450217479 0
-49H:\TeachMeSkills\homeworks\2maket\dist\index.html133073693682359270 0
+49H:\TeachMeSkills\homeworks\2maket\dist\index.html133074749442008248 0
 82H:\TeachMeSkills\homeworks\2maket\node_modules\caniuse-lite\data\features\http2.js133063491450237455 0
 103H:\TeachMeSkills\homeworks\2maket\node_modules\@parcel\runtime-react-refresh\lib\ReactRefreshRuntime.js133063491335080498 0
 78H:\TeachMeSkills\homeworks\2maket\node_modules\@parcel\core\src\BundleGraph.js133063491407058592 0
@@ -4043,7 +4043,7 @@
 93H:\TeachMeSkills\homeworks\2maket\node_modules\@parcel\node-resolver-core\src\NodeResolver.js133063491415477674 0
 87H:\TeachMeSkills\homeworks\2maket\node_modules\@parcel\node-resolver-core\lib\_empty.js133063491335000547 0
 72H:\TeachMeSkills\homeworks\2maket\node_modules\@parcel\namer-default\lib133063491334720770 1
-54H:\TeachMeSkills\homeworks\2maket\dist\w6.017cf5bc.png133073685418212127 0
+54H:\TeachMeSkills\homeworks\2maket\dist\w6.017cf5bc.png133073933190501345 0
 88H:\TeachMeSkills\homeworks\2maket\node_modules\@parcel\namer-default\src\DefaultNamer.js133063491341918818 0
 72H:\TeachMeSkills\homeworks\2maket\node_modules\@parcel\markdown-ansi\lib133063491331322781 1
 89H:\TeachMeSkills\homeworks\2maket\node_modules\@parcel\markdown-ansi\src\markdown-ansi.js133063491339426149 0
@@ -4358,20 +4358,20 @@
 60H:\TeachMeSkills\homeworks\2maket\node_modules\.bin\svgo.cmd133063491510984597 0
 58H:\TeachMeSkills\homeworks\2maket\node_modules\.bin\terser133063491511004587 0
 62H:\TeachMeSkills\homeworks\2maket\node_modules\.bin\terser.cmd133063491511004587 0
-57H:\TeachMeSkills\homeworks\2maket\dist\2maket.59712999.js133073685416143400 0
-61H:\TeachMeSkills\homeworks\2maket\dist\ACTIVEBOX.91d952ec.png133073685418112193 0
-55H:\TeachMeSkills\homeworks\2maket\dist\box.182119d6.png133073685418112193 0
-56H:\TeachMeSkills\homeworks\2maket\dist\cart.b379ac13.svg133073685416133410 0
-55H:\TeachMeSkills\homeworks\2maket\dist\img.bc2349ab.png133073693682818962 0
-57H:\TeachMeSkills\homeworks\2maket\dist\index.dda6fa14.css133073857303762410 0
-56H:\TeachMeSkills\homeworks\2maket\dist\LAMP.75e23d81.svg133073685416133410 0
-56H:\TeachMeSkills\homeworks\2maket\dist\mem1.a2dbab35.png133073685418212127 0
-56H:\TeachMeSkills\homeworks\2maket\dist\mem2.7aa036b9.png133073685418232141 0
-55H:\TeachMeSkills\homeworks\2maket\dist\PEN.de86bfd2.svg133073685416133410 0
-56H:\TeachMeSkills\homeworks\2maket\dist\star.3210f0e4.svg133073685416143400 0
-60H:\TeachMeSkills\homeworks\2maket\dist\Vector F.31f63504.svg133073685416143400 0
-60H:\TeachMeSkills\homeworks\2maket\dist\Vector T.ea18f61b.svg133073685416143400 0
-54H:\TeachMeSkills\homeworks\2maket\dist\w1.1135c4ba.png133073685418192140 0
-54H:\TeachMeSkills\homeworks\2maket\dist\w2.9eee466a.png133073685418272103 0
-54H:\TeachMeSkills\homeworks\2maket\dist\w4.fee509db.png133073685418202136 0
-54H:\TeachMeSkills\homeworks\2maket\dist\w7.549b8041.png133073685418322073 0
+57H:\TeachMeSkills\homeworks\2maket\dist\2maket.59712999.js133073933190331437 0
+61H:\TeachMeSkills\homeworks\2maket\dist\ACTIVEBOX.91d952ec.png133073933190391426 0
+55H:\TeachMeSkills\homeworks\2maket\dist\box.182119d6.png133073933190391426 0
+56H:\TeachMeSkills\homeworks\2maket\dist\cart.b379ac13.svg133073933189681853 0
+55H:\TeachMeSkills\homeworks\2maket\dist\img.bc2349ab.png133073933191060998 0
+57H:\TeachMeSkills\homeworks\2maket\dist\index.dda6fa14.css133074750946090852 0
+56H:\TeachMeSkills\homeworks\2maket\dist\LAMP.75e23d81.svg133073933189651862 0
+56H:\TeachMeSkills\homeworks\2maket\dist\mem1.a2dbab35.png133073933190501345 0
+56H:\TeachMeSkills\homeworks\2maket\dist\mem2.7aa036b9.png133073933190511339 0
+55H:\TeachMeSkills\homeworks\2maket\dist\PEN.de86bfd2.svg133073933189641868 0
+56H:\TeachMeSkills\homeworks\2maket\dist\star.3210f0e4.svg133073933189681853 0
+60H:\TeachMeSkills\homeworks\2maket\dist\Vector F.31f63504.svg133073933189681853 0
+60H:\TeachMeSkills\homeworks\2maket\dist\Vector T.ea18f61b.svg133073933189691854 0
+54H:\TeachMeSkills\homeworks\2maket\dist\w1.1135c4ba.png133073933190481348 0
+54H:\TeachMeSkills\homeworks\2maket\dist\w2.9eee466a.png133073933190691231 0
+54H:\TeachMeSkills\homeworks\2maket\dist\w4.fee509db.png133073933190491349 0
+54H:\TeachMeSkills\homeworks\2maket\dist\w7.549b8041.png133073933190681237 0

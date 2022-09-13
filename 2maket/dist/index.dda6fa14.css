@@ -56,6 +56,11 @@ body {
   text-align: center;
   width: 134px;
   margin-top: 40px;
+  font-family: Raleway;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 15px;
   display: block;
 }
 
@@ -153,6 +158,22 @@ body {
   width: 370px;
 }
 
+.container main .line .labels .bald {
+  font-family: Raleway;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 28px;
+}
+
+.container main .line .labels .mid {
+  font-family: Raleway;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px;
+}
+
 .container main .grid {
   grid-template-rows: 340px 340px;
   grid-template-columns: repeat(4, 378px);
@@ -218,6 +239,32 @@ body {
   display: flex;
 }
 
+.container main .team .member .name {
+  font-family: Raleway;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px;
+}
+
+.container main .team .member .job {
+  color: #ff4343;
+  margin: 0;
+  font-family: Raleway;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px;
+}
+
+.container main .team .member .discription {
+  font-family: Raleway;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px;
+}
+
 .container main .team .member .socials {
   display: flex;
 }
@@ -245,48 +292,42 @@ body {
 
 .container main .slider {
   width: 100%;
-  height: inherit;
-  width: inherit;
+  height: 490px;
   background: #5c3249;
-  position: relative;
-  overflow: hidden;
   box-shadow: 0 0 20px #00000080;
 }
 
-.container main .slides {
-  height: inherit;
-  width: inherit;
+.container main .slide {
+  opacity: 0;
+  width: 100%;
+  transform: scale(1);
+  transition: transform .5s ease-in-out, opacity .5s ease-in-out;
   display: flex;
   position: absolute;
+  transform: scale(1.5);
 }
 
-.container main .slides .slide1 img {
+.container main .slide .slide_img, .container main .slide .slide_text {
   width: 50%;
+}
+
+.container main .slide .slide_img img {
+  width: 100%;
+  height: 490px;
   display: block;
 }
 
-.container main .slides .slide1 .slider_text {
-  width: 50%;
-  background: #5c3249;
+.container main .slide .slide_text {
   align-items: center;
   margin: auto;
   display: flex;
 }
 
-.container main .slides .slide1 .slider_text .slider_text {
-  color: #fff;
-}
-
-.container main .slides .slide1 .slider_text .slider_text p {
-  width: 471px;
-  height: 230px;
+.container main .slide .slide_text p {
+  width: 50%;
   place-content: center;
-  margin: auto;
+  padding: 30px;
   font-size: 36px;
-  display: flex;
-}
-
-.container main .slides .slide2, .container main .slides .slide3, .container main .slides .slide4, .container main .slides .slide5 {
   display: flex;
 }
 
@@ -334,19 +375,8 @@ body {
   background: #ddd;
 }
 
-.container main .slides {
-  height: inherit;
-  opacity: 0;
-  width: inherit;
-  z-index: 0;
-  transition: transform .5s ease-in-out, opacity .5s ease-in-out;
-  position: absolute;
-  transform: scale(1.5);
-}
-
 .container main #slide1:checked ~ .slider > .slide1, .container main #slide2:checked ~ .slider > .slide2, .container main #slide3:checked ~ .slider > .slide3, .container main #slide4:checked ~ .slider > .slide4, .container main #slide5:checked ~ .slider > .slide5 {
   opacity: 1;
-  z-index: 1;
   transform: scale(1);
 }
 
@@ -389,6 +419,18 @@ body {
 
 .info #title {
   margin-top: 71px;
+  font-family: Raleway;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 21px;
+}
+
+.info #subtitle {
+  font-family: Raleway;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
   line-height: 21px;
 }
 
@@ -426,7 +468,8 @@ body {
   border: 1px solid #c6cbcd;
   justify-content: center;
   align-items: center;
-  margin-right: 5px;
+  margin-left: 13px;
+  margin-right: 13px;
   display: flex;
 }
 
