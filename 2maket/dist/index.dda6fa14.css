@@ -50,7 +50,7 @@ body {
   display: flex;
 }
 
-.container header .header_line ul li {
+.container header .header_line ul li a {
   color: #fff;
   height: 59px;
   text-align: center;
@@ -61,16 +61,17 @@ body {
   font-style: normal;
   font-weight: 700;
   line-height: 15px;
+  text-decoration: none;
   display: block;
 }
 
-.container header .header_line ul li:hover {
+.container header .header_line ul li a:hover {
   width: 134px;
   border-bottom: 3px solid #fff;
   margin-top: 43px;
 }
 
-.container header .header_line ul li:active {
+.container header .header_line ul li a:active {
   width: 134px;
   color: #e71414;
   border-bottom: 3px solid #e71414;
@@ -275,15 +276,17 @@ body {
   border: 1px solid #c6cbcd;
   justify-content: center;
   align-items: center;
+  margin-left: 0;
   margin-right: 5px;
   display: flex;
 }
 
 .container main .wrapper {
-  height: 490px;
+  height: 540px;
   width: 100%;
   margin: 0 auto;
   position: relative;
+  overflow: hidden;
 }
 
 .container main .wrapper > input {
@@ -345,6 +348,7 @@ body {
   margin: 25px 12px 0 16px;
   display: inline-block;
   position: relative;
+  overflow: visible;
 }
 
 .container main .wrapper label:after {
@@ -643,8 +647,648 @@ button:active {
     background: #e71414;
   }
 
-  .container main {
+  .container main .line {
+    display: flex;
+  }
+
+  .container main .line .labels {
+    width: 314px;
+  }
+
+  .container main .line .labels .bald {
+    width: 314px;
+    height: 30px;
+    align-items: center;
+    margin: 30px 0 0;
+    font-size: 18px;
+    font-weight: 900;
+    line-height: 21px;
+  }
+
+  .container main .line .labels .mid {
+    width: 314px;
+    height: 64px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+  }
+
+  .container main .grid {
+    grid-template-rows: 230px 230px;
+    grid-template-columns: repeat(4, 256px);
+    margin: 113px auto auto;
+    display: grid;
+  }
+
+  .container main .grid img {
+    width: 256px;
+    height: 230px;
+  }
+
+  .container main .grid .blank {
     display: none;
+  }
+
+  .container main .grid .blank p {
+    text-align: center;
+    justify-content: center;
+    display: flex;
+  }
+
+  .container main .grid .blank #project {
+    color: #fff;
+    margin-top: 16px;
+    padding-top: 75px;
+    font-family: Raleway;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 28px;
+  }
+
+  .container main .grid .blank #user {
+    color: #fff;
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px;
+  }
+
+  .container main .grid .item:hover > .blank {
+    height: 230px;
+    order: 2px solid #fff;
+    background: #ff4343cc;
+    display: block;
+    position: relative;
+    top: -250px;
+  }
+
+  .container main .grid .item:active > .blank {
+    order: 2px solid #fff;
+    background: #800000cc;
+    display: block;
+    position: relative;
+  }
+
+  .container main .team {
+    justify-content: center;
+    display: flex;
+  }
+
+  .container main .team .member {
+    width: 227px;
+    flex-direction: column;
+    margin: 114px 15px;
+    display: flex;
+  }
+
+  .container main .team .member .name {
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 21px;
+  }
+
+  .container main .team .member .job {
+    color: #ff4343;
+    margin: 0;
+    font-family: Raleway;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+  }
+
+  .container main .team .member .discription {
+    font-family: Raleway;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+  }
+
+  .container main .team .member .socials {
+    display: flex;
+  }
+
+  .container main .team .member .icon {
+    width: 39px;
+    height: 39px;
+    border: 1px solid #c6cbcd;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0;
+    margin-right: 5px;
+    display: flex;
+  }
+
+  .container main .wrapper {
+    height: 380px;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .container main .wrapper > input {
+    display: none;
+  }
+
+  .container main .slider {
+    width: 100%;
+    height: 332px;
+    background: #5c3249;
+    box-shadow: 0 0 20px #00000080;
+  }
+
+  .container main .slide {
+    opacity: 0;
+    width: 100%;
+    transform: scale(1);
+    transition: transform .5s ease-in-out, opacity .5s ease-in-out;
+    display: flex;
+    position: absolute;
+    transform: scale(1.5);
+  }
+
+  .container main .slide .slide_img, .container main .slide .slide_text {
+    width: 50%;
+  }
+
+  .container main .slide .slide_img img {
+    width: 100%;
+    height: 332px;
+    display: block;
+  }
+
+  .container main .slide .slide_text {
+    align-items: center;
+    margin: auto;
+    display: flex;
+  }
+
+  .container main .slide .slide_text p {
+    width: 50%;
+    place-content: center;
+    padding: 30px;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32px;
+    display: flex;
+  }
+}
+
+@media (max-width: 320px) {
+  .container {
+    width: 100%;
+    height: 100%;
+  }
+
+  .container header {
+    height: 747px;
+    width: 100%;
+    background-color: #0000;
+    background-image: linear-gradient(#38383880, #20069680), url("img.bc2349ab.png");
+    background-position-x: center;
+    background-position-y: 0%, 0%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll, scroll;
+    background-origin: padding-box, padding-box;
+    background-clip: border-box, border-box;
+    margin: auto auto 50px;
+  }
+
+  .container header .header_line {
+    height: 100px;
+    width: 100%;
+    align-items: center;
+    margin: auto;
+    display: flex;
+  }
+
+  .container header .header_line .png {
+    width: 130px;
+    height: 56px;
+    margin-left: 20px;
+  }
+
+  .container header .header_line .header_burger {
+    z-index: 3;
+    width: 30px;
+    height: 20px;
+    z-index: 3;
+    display: block;
+    position: relative;
+  }
+
+  .container header .header_line .header_burger:before, .container header .header_line .header_burger:after {
+    content: "";
+    width: 100%;
+    height: 2px;
+    background-color: #fff;
+    transition: all .3s;
+    position: absolute;
+    left: 100px;
+  }
+
+  .container header .header_line .header_burger span {
+    width: 100%;
+    height: 2.5px;
+    background-color: #fff;
+    transition: all .3s;
+    position: absolute;
+    top: 9px;
+    left: 100px;
+  }
+
+  .container header .header_line .header_burger:before {
+    height: 2.5px;
+    top: 0;
+  }
+
+  .container header .header_line .header_burger:after {
+    bottom: 0;
+  }
+
+  .container header .header_line .header_burger.active:before {
+    top: 9px;
+    transform: rotate(45deg);
+  }
+
+  .container header .header_line .header_burger.active:after {
+    bottom: 9px;
+    transform: rotate(-45deg);
+  }
+
+  .container header .header_line .header_burger.active span {
+    transform: scale(0);
+  }
+
+  .container header .header_line .header_menu {
+    width: 100%;
+    justify-content: space-evenly;
+    display: flex;
+  }
+
+  .container header .header_line ul {
+    width: 100%;
+    justify-content: end;
+    align-items: center;
+    list-style: none;
+    display: none;
+  }
+
+  .container header .header_line ul li {
+    color: #fff;
+    height: 59px;
+    text-align: center;
+    width: 134px;
+    margin-top: 40px;
+    font-family: Raleway;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 15px;
+    display: block;
+  }
+
+  .container header .header_line ul li:hover {
+    width: 134px;
+    border-bottom: 3px solid #fff;
+    margin-top: 43px;
+  }
+
+  .container header .header_line ul li:active {
+    width: 134px;
+    color: #e71414;
+    border-bottom: 3px solid #e71414;
+    margin-top: 43px;
+  }
+
+  .container header hr {
+    display: none;
+  }
+
+  .container header .title {
+    width: 280px;
+    height: 210px;
+    text-align: center;
+    color: #fff;
+    align-items: center;
+    margin: 130px auto auto;
+    font-family: Raleway;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 42px;
+    display: flex;
+  }
+
+  .container header .subtitle {
+    width: 280px;
+    height: 64px;
+    text-align: center;
+    color: #fff;
+    align-items: center;
+    margin: 62px auto auto;
+    font-family: Raleway;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    display: flex;
+  }
+
+  .container header button {
+    width: 280px;
+    height: 58px;
+    background-color: #ff4343;
+    border: none;
+    justify-content: center;
+    margin: 82px auto;
+    padding: 0;
+    display: flex;
+  }
+
+  .container header button p {
+    color: #fff;
+    align-self: center;
+    font-family: Raleway;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 28px;
+    display: flex;
+  }
+
+  .container header button:hover {
+    background: #e71414;
+  }
+
+  .container main .line {
+    flex-direction: column;
+    margin-top: 0;
+    display: flex;
+  }
+
+  .container main .line .labels {
+    width: 314px;
+  }
+
+  .container main .line .labels .bald {
+    width: 314px;
+    height: 30px;
+    align-items: center;
+    margin: 30px 0 0;
+    font-size: 18px;
+    font-weight: 900;
+    line-height: 21px;
+  }
+
+  .container main .line .labels .mid {
+    width: 314px;
+    height: 64px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+  }
+
+  .container main .grid {
+    grid-template-rows: repeat(4, 144px);
+    grid-template-columns: repeat(2, 160px);
+    margin: 113px auto auto;
+    display: grid;
+  }
+
+  .container main .grid img {
+    width: 160px;
+    height: 144px;
+  }
+
+  .container main .grid .blank {
+    display: none;
+  }
+
+  .container main .grid .blank p {
+    text-align: center;
+    justify-content: center;
+    display: flex;
+  }
+
+  .container main .grid .blank #project {
+    color: #fff;
+    margin-top: 16px;
+    padding-top: 46px;
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 21px;
+  }
+
+  .container main .grid .blank #user {
+    color: #fff;
+    font-family: Raleway;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+  }
+
+  .container main .grid .item:hover > .blank {
+    height: 143px;
+    order: 2px solid #fff;
+    background: #ff4343cc;
+    display: block;
+    position: relative;
+    top: -163px;
+  }
+
+  .container main .grid .item:active > .blank {
+    order: 2px solid #fff;
+    background: #800000cc;
+    display: block;
+    position: relative;
+  }
+
+  .container main .team {
+    flex-direction: column;
+    display: flex;
+  }
+
+  .container main .team .member {
+    width: 280px;
+    flex-direction: column;
+    margin: 114px 15px 0 20px;
+    display: flex;
+  }
+
+  .container main .team .member .name {
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 21px;
+  }
+
+  .container main .team .member .job {
+    color: #ff4343;
+    margin: 0;
+    font-family: Raleway;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+  }
+
+  .container main .team .member .discription {
+    font-family: Raleway;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+  }
+
+  .container main .team .member .socials {
+    display: flex;
+  }
+
+  .container main .team .member .icon {
+    width: 39px;
+    height: 39px;
+    border: 1px solid #c6cbcd;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0;
+    margin-right: 5px;
+    display: flex;
+  }
+
+  .container main .wrapper {
+    height: 585px;
+    width: 100%;
+    margin: 35px auto 0;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .container main .wrapper > input {
+    display: none;
+  }
+
+  .container main .slider {
+    width: 100%;
+    height: 540px;
+    background: #5c3249;
+    box-shadow: 0 0 20px #00000080;
+  }
+
+  .container main .slide {
+    opacity: 0;
+    width: 100%;
+    transform: scale(1);
+    flex-direction: column;
+    transition: transform .5s ease-in-out, opacity .5s ease-in-out;
+    display: flex;
+    position: absolute;
+    transform: scale(1.5);
+  }
+
+  .container main .slide .slide_img, .container main .slide .slide_text {
+    width: 100%;
+  }
+
+  .container main .slide .slide_img img {
+    width: 320px;
+    height: 212px;
+    display: block;
+  }
+
+  .container main .slide .slide_text {
+    width: 320px;
+    align-items: center;
+    margin: auto;
+    display: flex;
+  }
+
+  .container main .slide .slide_text p {
+    width: 320px;
+    place-content: center;
+    padding: 30px;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32px;
+    display: flex;
+  }
+
+  .container main .download {
+    margin-top: 35px;
+  }
+
+  .container main .download .start {
+    width: 280px;
+    height: 60px;
+    margin: auto;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21px;
+  }
+
+  .container main .download .text {
+    width: 280px;
+    height: 60px;
+    margin: auto;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 15px;
+  }
+
+  .container main .download button {
+    width: 280px;
+    height: 80px;
+  }
+
+  .container footer {
+    height: 540px;
+    margin-top: 45px;
+  }
+
+  .container footer .info {
+    height: 450px;
+    flex-direction: column;
+    padding-top: 32px;
+    display: flex;
+  }
+
+  .container footer .info .blocks {
+    width: 320px;
+    margin: auto;
+  }
+
+  .container footer .info .blocks #title {
+    width: 280px;
+    margin: auto auto 34px;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16px;
+  }
+
+  .container footer .info .blocks #subtitle {
+    width: 280px;
+    margin: auto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+  }
+
+  .container footer .bottom_line #bottom {
+    width: 280px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
   }
 }
 
