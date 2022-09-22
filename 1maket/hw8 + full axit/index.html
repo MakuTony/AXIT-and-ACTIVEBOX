@@ -17,6 +17,12 @@
 
             <header>
 
+                <script src="http://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+
+                <script src="berg.js"></script>
+
+                <div class="header_menu">
+
                 <div class="logo">
 
                     <img src="./pngs/AX sm.svg" alt="AX">
@@ -29,28 +35,28 @@
                     <span></span>
                 </div>
 
-                <div class="header_menu">
+                
 
                     <ul class="header_list">  
 
                         <li>
-                            <a href="#./tabs/index.html">Features</a>
+                            <a href="#./tabs/index.html" class="header_link">Features</a>
                         </li>
 
                         <li>
-                            <a href="#./awesome/inddex.html" >About</a>
+                            <a href="#./awesome/inddex.html" class="header_link" >About</a>
                         </li>
 
                         <li>
-                            <a href="#./pricing/index.html">Pricing</a>
+                            <a href="#./pricing/index.html" class="header_link">Pricing</a>
                         </li>
 
                         <li>
-                            <a href="#./costumers/index.html" >Reviews</a>
+                            <a href="#./costumers/index.html" class="header_link">Reviews</a>
                         </li>
 
                         <li>
-                            <a href="#../CONTACTS/index.html">Contact</a>
+                            <a href="#../CONTACTS/index.html" class="header_link">Contact</a>
                         </li>
 
                     </ul>  
@@ -83,7 +89,7 @@
                 </div>
 
                 <form>
-                    <p> FREE </p>
+                    <p id="orange"> FREE </p>
 
 
 
@@ -247,29 +253,17 @@
 
         
         
-            <div class="vectors">
 
+            <div class="design">
+             
+            
+            <div class="design_left">
+            
+                
                 <div class="border">
                     <img src="./awesome/vectors/lamp.png" alt="lamp" id="lamp">
                 </div>
 
-                <div class="border">
-                    <img src="./awesome/vectors/Vector.png" alt="keybord" id="key">
-                </div>
-
-
-                <div class="border">
-                    <img src="./awesome/vectors/lightning.png" alt="lightning" id="light">
-
-                </div>
-
-            </div>
-
-            <div class="design">
-
-            
-            <div class="design_left">
-            
                 <div class="title">
                 <h4>Thouthful Design</h4>
             </div>
@@ -281,6 +275,11 @@
 
             <div class="design_middle">
 
+                <div class="border">
+                    <img src="./awesome/vectors/lightning.png" alt="lightning" id="light">
+
+                </div>
+
             <div class="title">
                 <h4>Thouthful Design</h4>
             </div>
@@ -291,6 +290,10 @@
 
 
             <div class="design_right">
+
+                <div class="border">
+                    <img src="./awesome/vectors/Vector.png" alt="keybord" id="key">
+                </div>
 
             <div class="title">
                 <h4>Thouthful Design</h4>
@@ -448,7 +451,7 @@
         
                 <div class="cards">
         
-                    <div class="card">
+                    <div class="card" id="first_card">
         
                         <div class="message">
                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus accusamus expedita repellat similique odio aspernatur ex, architecto eaque quo suscipit.

@@ -49,3 +49,465 @@ body {
     width: 100%;
     height: 100%;
 }
+
+@media (max-width: 1024px){
+    .axit .modern{
+        width: 434px;
+        height: 126px;
+    }
+    .axit .social{
+        width: 402px;
+    }
+    .axit .links{
+        width: 600px;
+    }
+    .axit .media{
+        margin-bottom: 0;
+    }
+    .axit .subtitle{
+        height: 60px;
+        width: 402px;
+    }
+
+    .tab .container{
+        width: 1024px;
+        margin: auto;
+    }
+    .tab p{
+        width: 480px;
+    }
+    .tab #title{
+        width: 480px;
+        font-weight: 700;
+font-size: 24px;
+line-height: 33px;
+    }
+    .tab #txt_1 .lorem{
+        padding-left: 50px;
+    }
+    .tab #txt_2 .lorem{
+        padding-left: 50px;
+    }
+    .tab #txt_3 .lorem{
+        padding-left: 50px;
+    }
+    .tab #tab_1:checked ~ #txt_1, .tab #tab_2:checked ~ #txt_2, .tab #tab_3:checked ~ #txt_3{
+        border-left-width: 0;
+        border-right-width: 0;
+    }
+    .about .design {
+        font-weight: 400;
+font-size: 14px;
+line-height: 16px;
+    }
+    .about .design .design_left span{
+        width: 310px;
+        height: 64px;
+    }
+    .about .design .design_middle span{
+        width: 310px;
+        height: 64px;
+    }
+    .about .design .design_right span{
+        width: 310px;
+        height: 64px;
+    }
+    .pricing .cards .card .basic{
+        width: 313px;
+    }
+    .pricing .cards .card .pro{
+        width: 313px;
+    }
+    .pricing .cards .card .optima{
+        width: 313px;
+    }
+    .costumers .cards .card{
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    .costumers .cards .card .message{
+        width: 315px;
+        font-weight: 400;
+font-size: 14px;
+line-height: 16px;
+    }
+    .costumers .name{
+        font-weight: 700;
+font-size: 18px;
+line-height: 25px;
+width: 200px;
+    }
+    .contacts #textarea{
+        width: 480px;
+    }
+    .contacts .text input{
+        width: 480px;
+    }
+}
+
+
+
+@media (max-width: 320px){
+
+    body.lock{
+        overflow: hidden;
+    }
+
+    .axit .header{
+        height: 50px;
+    }
+    .axit .logo{
+        margin-top: 0;
+        flex: 0 0 95px;
+        position: fixed;
+        top: 18px;
+        left: -2px;
+        scale: 0.7;
+        z-index: 4;
+        
+    }
+
+    .axit .header_burger{
+        display: block;
+    position: fixed;
+    z-index: 3;
+    width: 30px;
+    height: 20px;
+    right: 16px;
+    top: 25px;
+    }
+    .axit .header_burger:before,
+    .axit .header_burger:after {
+        content: '';
+        background-color: #fff;
+        position: absolute;
+        width: 100%;
+        height: 2px;
+        left: 0;
+        transition: all 0.3s ease 0s;
+    }
+    .axit .header_burger span{
+        background-color: #fff;
+        position: absolute;
+        width: 100%;
+        height: 2.5px;
+        left: 0;
+        top: 9px;
+        transition: all 0.3s ease 0s;
+    }
+    .axit .header_burger:before{
+        top: 0;
+        height: 2.5px;
+    }
+    .axit .header_burger:after{
+        bottom: 0;
+    }
+
+    .axit .header_burger.active:before {
+        transform: rotate(45deg);
+        top: 9px ;
+    }
+    .axit .header_burger.active:after {
+        transform: rotate(-45deg);
+        bottom: 9px;
+    }
+    .axit .header_burger.active span {
+        transform: scale(0);
+    }
+    .axit .header_menu {
+        position: fixed;
+        top: -100%;
+        z-index: 1;
+        width: 100%;
+        height: 100%;
+        overflow: auto;
+        transition: all 0.3s ease 0s;
+        background-color: rgb(0, 0, 0);
+        padding: 70px 10px 0px 10px;
+    }
+    .axit .header_menu.active{
+        top: 0;
+    }
+    .axit .header_list li .active{
+        top: 0;
+    }
+    .axit .header_list{
+        display: block;
+        padding-left: 0;
+    }
+    .axit .header_list li{
+        margin: 0px 0px 20px 0px;
+    }
+    .axit .header_link{
+        font-size: 24px;
+    }
+    .axit .container{
+        width: 100%;
+        height: 1005px;        
+    }
+    .axit .title{
+        display: none;
+    }
+    
+    .axit .modern{
+        font-weight: 500;
+font-size: 36px;
+line-height: 42px;
+width: 288px;
+height: 168px;
+text-align: center;
+    }
+    .axit main {
+        flex-direction: column;
+        display: flex;
+    margin:  auto;
+    height: 650px;
+    width: 288px;
+    margin-top: 100px;
+    }
+   
+    .axit hr{
+        margin: 43px auto;
+    }
+    .axit .lorem{
+        margin: auto;
+        text-align: center;
+        margin-bottom: 42px;
+    }
+    .axit button{
+        margin: auto;
+        margin-bottom: 56px;
+    }
+    .axit form p{
+        width: 240px;
+        height: 90px;
+        font-weight: 700;
+font-size: 14px;
+line-height: 19px;
+    }
+    .axit form {
+        width: 288px;
+        height: 381px;
+    }
+    .axit form .get{
+        width: 288px;
+    }
+    .axit form #btn{
+        width: 288px;
+    }
+    .axit footer{
+        padding-left: 0;
+        padding-right: 0;
+        flex-direction: column;
+        width: 100%;
+        height: 239px;
+        overflow: hidden;
+    }
+
+    .axit .subtitle{
+        width: 271px;
+        height: 42px;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+        text-align: center;
+        margin-top: 13px;
+        margin: auto;
+    }
+    .axit .media{
+        margin-bottom: 30px;
+        font-weight: 700;
+font-size: 18px;
+line-height: 25px;
+width: 320px;
+height: 45px;
+margin-right: 0;
+justify-content: center;
+    }
+    .axit .social {
+        width: 320px;
+    }
+    .axit .links img{
+        height: 20px;
+        margin: 0;
+        margin-bottom: 45px;
+    }
+    .axit .links{
+        width: 320px;
+    }
+    .axit a{
+        height: 11px;
+    }
+    .tab{
+        margin-top: 160px;
+        width: 100%;
+    }
+    .tab .container{
+        width: 100%;
+    }
+    .tab img{
+        display: none;
+    }
+    .tab .tabs label{
+        width: 91px;
+    }
+    .tab #txt_1 .lorem{
+       padding: 0;
+       display: flex;
+    align-items: center;
+    }
+    
+    .tab #txt_2 .lorem{
+        display: flex;
+    align-items: center;
+padding: 0;
+    }
+    
+    .tab #txt_3 .lorem{
+        display: flex;
+    align-items: center;
+padding: 0;
+    }
+    .tab #txt_1 {
+        margin: auto;
+    }
+    .tab #title{
+        text-align: center;
+        width: 242px;
+        height: 112px;
+        font-weight: 700;
+font-size: 18px;
+line-height: 25px;
+    }
+    .tab p{
+        font-weight: 400;
+font-size: 13px;
+line-height: 15px;
+width: 242px;
+height: 180px;
+text-align: center;
+    }
+
+    .about .design{
+        display: flex;
+        flex-direction: column;
+    }
+    .about .design .design_middle span{
+        width: 288px;
+        margin: auto;
+        
+    }
+    .about .design .design_left span{
+        margin: auto;
+        width: 288px;
+    }
+    .about .design .design_right span{
+        margin: auto;
+        width: 288px;
+    }
+    .pricing .container{
+        height: 2000px;
+    }
+    .pricing .cards{
+        display: flex;
+        flex-direction: column;
+    }
+    .pricing .cards .card{
+        width: 100%;
+        margin-bottom: 500px;
+        margin: auto;
+    }
+
+    .pricing .cards .card .basic{
+        margin-bottom: 500px;
+        width: 288px;
+        margin: auto;
+    }
+    .pricing .cards .card .optima{
+        
+        width: 288px;
+        margin: 500px auto;
+    }
+    .pricing .cards .card .pro{
+       
+        width: 288px;
+        margin: auto;
+    }
+    .pricing .cards .card .name{
+        width: 288px;
+        border: 0;
+        
+    }
+    .pricing .cards .card .price{
+        width: 288px;
+        border-left:0 ;
+        border-right: 0;
+    }
+    .pricing .cards .card .free{
+        width: 288px;
+        border-left:0 ;
+        border-right: 0;
+    }
+    .pricing .cards .card ul{
+        width: 288px;
+        border-left:0 ;
+        border-right: 0;
+    }
+    .costumers .cards .card .message{
+        width: 289px;
+    }
+    .costumers .cards{
+        overflow-x: scroll;
+        height: 460px;
+    }
+    .costumers .cards .card{
+        margin-right: 0;
+        margin-left: 20px;
+        
+    }
+    .costumers .cards #first_card{
+        margin-right: 0;
+        margin-left: 620px;
+    }
+    .city{
+        height: 358px;
+        width: 100%;
+    }
+    .city button{
+        width: 288px;
+    }
+    .contacts .wrapper{
+        margin-top: 85px;
+    }
+    .contacts .text input{
+        width: 290px;
+        margin: auto;
+    }
+    .contacts #textarea {
+        width: 290px;
+        margin-left: 15px;
+    }
+    .contacts main form .text{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .contacts #btn{
+        width: 290px;
+    }
+    .contacts footer .links{
+        display: flex;
+        width: 100%;
+    }
+    .contacts footer .links a{
+        width: 19px;
+        height: 19px;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin: auto;
+    }
+    .contacts footer img{
+        width: 19px;
+        height: 19px;
+    }
+}

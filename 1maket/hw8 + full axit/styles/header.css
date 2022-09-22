@@ -7,16 +7,20 @@
     align-items: center;
     
 }
-
-.axit .header_menu{
-    display: flex;
-    justify-content: center;
+.axit  .logo{
+    margin-top: 35px;
 }
 
-.axit ul{
+.axit  .header_menu{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.axit  ul{
     display: flex;
 }
-.axit li{
+.axit .header_menu li{
     display: flex;
     justify-content: center;
     width: 113.8px;
@@ -35,12 +39,12 @@
     align-items: center;
 }
 
-.axit nav:hover{
+.axit .header_menu li:hover{
     background-color: rgb(255, 255, 255);
     
     border-radius: 5px;
 }
 
-.axit a:hover{
+.axit .header_menu a:hover{
     color: black;
 }
